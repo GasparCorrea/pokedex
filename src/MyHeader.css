@@ -1,0 +1,14 @@
+@font-face {
+    font-family: VT323;
+    src: url(./VT323-Regular.ttf);
+}
+
+.header{
+    font-family: VT323,monospace;
+    background: linear-gradient(90deg, rgba(247,196,247,1) 2%, rgba(215,230,233,1) 100%);
+    height: 6vh;
+    border-bottom: 5px solid #3A9EB5;
+    text-align: center;
+    font-size: 5vh;
+    color: #416269;
+}

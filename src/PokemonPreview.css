@@ -1,0 +1,12 @@
+.sprite{
+    margin-top: 0vh;
+    height: 10vh;
+}
+
+.preview{
+    background-color: white;
+    width: 10h;
+    height: 10vh;
+    border-radius: 250px;
+    border: 5px solid #3A9EB5;
+}

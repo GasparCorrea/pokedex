@@ -1,0 +1,35 @@
+@font-face {
+  font-family: VT323;
+  src: url(./VT323-Regular.ttf);
+}
+
+.select-pokemon{
+  height: 8vh;
+  width: 50vh;
+  background: linear-gradient(90deg, rgba(247,196,247,1) 2%, rgba(215,230,233,1) 100%);
+  border-left: 3px solid #416269;
+  border-top: 3px solid #416269;
+  border-bottom: 3px solid #416269;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.25s ease-in;
+  border-top-left-radius: 250px;
+  border-bottom-left-radius: 250px;
+  margin-left:auto; margin-right:0;
+  transition-property: width, border;
+  font-family: VT323, monospace;
+  color: #416269;
+  cursor: pointer
+}
+
+.select-pokemon:hover{
+  width: 55vh;
+  border-left: 5px solid #3A9EB5;
+  border-top: 5px solid #3A9EB5;
+  border-bottom: 5px solid #3A9EB5;
+}
+
+.selector{
+  overflow: auto;
+  height: 90vh;
+}
