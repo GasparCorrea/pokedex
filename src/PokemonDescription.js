@@ -14,7 +14,7 @@ class PokemonDescription extends React.Component{
         </div>
           Type: Fire
           <br/>
-          Weight: 16 kg
+          Weight: {this.props.selected.weight}
           <br/>
           ATK: 12 | DEF: 12 | HP: 12 | SP ATK: 12 | SP DEF: 12 | HP: 12  
       </div>
