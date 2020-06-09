@@ -9,14 +9,14 @@ class PokemonDescription extends React.Component{
         <div className="top-row">
           <PokemonPreview selected={this.props.selected}/>
           <div className="title">
-            {this.props.selected.name.toUpperCase()} {this.props.selected.number}
+            {this.props.selected.name.toUpperCase()} #{this.props.selected.number}
           </div>
         </div>
-          Type: Fire
+          Type: {this.props.selected.types.toString().toUpperCase()}
           <br/>
-          Weight: {this.props.selected.weight}
+          Weight: {parseInt(this.props.selected.weight)/10} kg
           <br/>
-          ATK: 12 | DEF: 12 | HP: 12 | SP ATK: 12 | SP DEF: 12 | HP: 12  
+          HP: {this.props.selected.hp} |ATK: {this.props.selected.attack} | DEF: {this.props.selected.defense} | SP ATK: {this.props.selected["special-attack"]} | SP DEF: {this.props.selected["special-defense"]} | SPEED: {this.props.selected.speed}
       </div>
     )
     
