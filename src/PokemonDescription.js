@@ -16,7 +16,7 @@ class PokemonDescription extends React.Component{
           <br/>
           Weight: {parseInt(this.props.selected.weight)/10} kg
           <br/>
-          HP: {this.props.selected.hp} |ATK: {this.props.selected.attack} | DEF: {this.props.selected.defense} | SP ATK: {this.props.selected["special-attack"]} | SP DEF: {this.props.selected["special-defense"]} | SPEED: {this.props.selected.speed}
+          HP: {this.props.selected.hp.toString().padEnd(3,"\u00a0")} | ATK: {this.props.selected.attack.toString().padEnd(3,"\u00a0")} | DEF: {this.props.selected.defense.toString().padEnd(3,"\u00a0")} | SP ATK: {this.props.selected["special-attack"].toString().padEnd(3,"\u00a0")} | SP DEF: {this.props.selected["special-defense"].toString().padEnd(3,"\u00a0")} | SPEED: {this.props.selected.speed.toString().padEnd(3,"\u00a0")}
       </div>
     )
     
