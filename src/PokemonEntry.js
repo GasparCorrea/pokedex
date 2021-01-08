@@ -12,7 +12,7 @@ class PokemonEntry extends React.Component{
                         {this.props.number}
             </div>
             <div className="entry-item entry-text">
-                        {this.props.name}
+                        {this.props.name.padStart(11,"\u00a0")}
             </div>
 
 
