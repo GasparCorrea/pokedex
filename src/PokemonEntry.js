@@ -9,7 +9,7 @@ class PokemonEntry extends React.Component{
                         <img className="pb" alt="Pokeball" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"/>
             </div>
             <div className="entry-item entry-text">
-                        {"№"+this.props.number.toString().padStart(3,"0")}
+                        {"№ "+this.props.number.toString().padStart(3,"0")}
             </div>
             <div className="entry-item entry-text">
                         {this.props.name.padStart(11,"\u00a0")}

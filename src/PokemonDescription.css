@@ -28,3 +28,12 @@
     font-size: 5vh;
 }
 
+@media only screen and (max-width: 768px) {
+    .description{
+        width: 94%;
+        margin-top: 5vh;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-left: 5px solid #3A9EB5;
+    }
+}
