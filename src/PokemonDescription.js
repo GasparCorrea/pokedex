@@ -9,7 +9,7 @@ class PokemonDescription extends React.Component{
         <div className="top-row">
           <PokemonPreview selected={this.props.selected}/>
           <div className="title">
-            {this.props.selected.name.toUpperCase()} #{this.props.selected.number}
+            {this.props.selected.name.toUpperCase().padEnd(12,"\u00a0")} {"№"+this.props.selected.number.toString().padStart(3,"0")}
           </div>
         </div>
           Type: {this.props.selected.types.toString().toUpperCase()}
