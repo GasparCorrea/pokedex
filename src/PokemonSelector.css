@@ -32,4 +32,18 @@
 .selector{
   overflow: auto;
   height: 90vh;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px){
+  .select-pokemon{
+    width: 40vh;
+  }
+  .select-pokemon:hover{
+    width: 45vh;
+    border-left: 3px solid #3A9EB5;
+    border-top: 3px solid #3A9EB5;
+    border-bottom: 3px solid #3A9EB5;
+    transition-property: width;
+  }
 }
